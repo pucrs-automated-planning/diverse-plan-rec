@@ -25,7 +25,7 @@ install:
 script:
 #  - pytest # or py.test for Python versions 3.5 and below
   - PYTHONPATH=.:./pyperplan/src
-#  - py.test # for Python versions 3.5 and below
+  - py.test # for Python versions 3.5 and below
 
 notifications:
     slack: lsa-pucrs:BnYFOoQu9tOoI8Vmght1dEus
