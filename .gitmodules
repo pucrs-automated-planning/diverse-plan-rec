@@ -1,0 +1,6 @@
+[submodule "datasets"]
+	path = datasets
+	url = https://github.com/pucrs-automated-planning/goal-plan-recognition-dataset.git
+[submodule "pyperplan"]
+	path = pyperplan
+	url = https://github.com/pucrs-automated-planning/pyperplan.git

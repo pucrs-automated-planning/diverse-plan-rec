@@ -1,4 +1,4 @@
-# Plan Recognition using Diverse Planning
+# Plan Recognition using Diverse Planning [![Build Status](https://travis-ci.org/pucrs-automated-planning/prob-plan-recognition.svg?branch=master)](https://travis-ci.org/pucrs-automated-planning/prob-plan-recognition)
 
 An implementation of the plan recognition using diverse planners from the [Plan Recognition as Planning Revisited](http://www.cs.toronto.edu/~shirin/Sohrabi-IJCAI-16.pdf) paper 
 

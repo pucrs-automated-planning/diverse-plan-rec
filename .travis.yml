@@ -1,0 +1,31 @@
+dist: xenial
+language: python
+python:
+#  - "2.7"
+#  - "3.2"
+#  - "3.3"
+#  - "3.4"
+#  - "3.5"
+#  - "3.5-dev" # 3.5 development branch
+  - "3.6"
+#  - "3.6-dev" # 3.6 development branch
+#  - "3.7-dev" # 3.7 development branch
+#  - "nightly"
+# command to install z3
+before_install:
+#  - sudo rm /etc/apt/sources.list.d/mongodb.list
+  # - sudo apt-get -qq update
+  # - sudo apt-get -q update
+  # - sudo apt-get install -y z3
+  # - sudo apt-get install -y python-z3
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+# command to run tests
+script:
+#  - pytest # or py.test for Python versions 3.5 and below
+  - PYTHONPATH=.:./pyperplan/src
+#  - py.test # for Python versions 3.5 and below
+
+notifications:
+    slack: lsa-pucrs:BnYFOoQu9tOoI8Vmght1dEus
