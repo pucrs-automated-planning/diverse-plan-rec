@@ -13,8 +13,8 @@ class TestDiversePR(unittest.TestCase):
 
     def test_pr_problem_parsing(self):
         domain_file = "blocks-test/domain.pddl"
-        observations_file = "blocks-test/obs.pddl"
-        hypotheses_file = "blocks-test/hyp.dat"
+        observations_file = "blocks-test/obs.dat"
+        hypotheses_file = "blocks-test/hyps.dat"
         template_file = "blocks-test/template.pddl"
         parser = PlanRecognitionProblemParser()
         pr_problem = parser.parse_pr_problem(domain_file,observations_file,hypotheses_file,template_file)
